@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Collins</title>
+  </head>
+  <style>
+    .item {
+      transition: 0.2s ease-in-out;
+    }
+    .item:hover {
+      filter: brightness(70%);
+    }
+  </style>
+  <body>
+    <!-- <header class="container">
+      <nav>
+        <h2>Logo</h2>
+        <ul>
+          <li>Home</li>
+          <li>Services</li>
+          <li>Portfolio</li>
+          <li>About Us</li>
+          <li>Contacts</li>
+        </ul>
+      </nav>
+    </header> -->
+    <header class="header" id="home">
+      <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" id="navbar-logo" href="#"
+            >C.S.O Technical Company</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto text-end">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#safety">Safety</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="container">
+          <div class="hero-text">
+            <h1 class="hero-text__main">
+              With over two decades experience in the Nigerian fabrication
+              industry...
+            </h1>
+            <p>
+              C.S.O Technical Company Ltd has solid experience to adequately
+              deliver industry standard metal works and fabrication in big or
+              small projects.
+            </p>
+            <div class="hero-link">
+              <a href="#">GET QUOTE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="section-one" id="services">
+          <h1 class="text-center display-4 h1 text-light pt-5 pb-1">
+            SERVICES
+          </h1>
+          <p class="text-center text-light" id="service-para">
+            Due to our vast experience and knowledge in this industry in
+            Nigeria, we have successfully undertaken both big and small projects
+            in the following categories:
+          </p>
+        </div>
+        <div class="row gy-5" style="margin-bottom: 15rem">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <div class="card">
+              <div
+                class="img mb-2 d-flex justify-content-center align-items-center">
+                <img src="./img/svg1.svg" alt="svg" />
+              </div>
+              <div class="card-body">
+                <div class="card-title pb-2 text-light">
+                  <h2 class="h2">ARC WELDING</h2>
+                </div>
+                <div class="card-text text-light">
+                  <p class="h4 btr" style="font-weight: 200">
+                    This is a welding process used to join metal to metal by
+                    using electricity to create enough heat to melt metal, and
+                    the melted metals, when cool, result in a binding of the
+                    metal
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <div class="card">
+              <div
+                class="img mb-2 d-flex justify-content-center align-items-center">
+                <img src="./img/svg2.svg" alt="svg" />
+              </div>
+              <div class="card-body">
+                <div class="card-title pb-2 text-light">
+                  <h2 class="h2">TIG/ARGON WEILDING</h2>
+                </div>
+                <div class="card-text text-light">
+                  <p class="h4 btr" style="font-weight: 200">
+                    Popularly known as tungsten inert gas (TIG) wielding, is a
+                    wielding process that uses non-consumable tungsten electrode
+                    to produce the wield
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <div class="card">
+              <div
+                class="img mb-2 d-flex justify-content-center align-items-center">
+                <img src="./img/svg3.svg" alt="svg" />
+              </div>
+              <div class="card-body">
+                <div class="card-title pb-2 text-light">
+                  <h2 class="h2">GAS METAL WEILDING</h2>
+                </div>
+                <div class="card-text text-light">
+                  <p class="h4 btr" style="font-weight: 200">
+                    Sometimes referred to by its subtypes metal inert gas (MIG)
+                    and metal active gas (MAG) is a wielding process in which a
+                    electric arc forms between a consumable MIG wire electrode
+                    and the workpiece metal(s), which heats the workpiece
+                    metal(s), causing them to fuse
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="safety" class="row align-items-center g-5 mb-5">
+          <div class="image-container col">
+            <img
+              src="./img/about-img.png"
+              alt="An image about our services"
+              class="img-fluid" />
+          </div>
+          <div class="profile col">
+            <h2 class="lg-text text-light">SAFTEY MEASURES</h2>
+            <p class="md-text pb-3">
+              At Colins S.0 TECHNICAL COMPANY LTD, We have a very strict safety
+              policy in place to govern all workplace procedures as well as to
+              ensure the safety of our staff.
+            </p>
+            <p class="md-text pb-3">
+              Employees are encouraged to participate in creating a safe and
+              healthy working environment by being actively involved in our
+              Safety, Health and Environment programme. They can do this by
+              identifying hazards, evaluating risks, reporting incidents and
+              unsafe acts or unhealthy conditions. Before commencing with any
+              activity that may have an environmental effect, we will conduct an
+              assessment and take the necessary steps to address the impact of
+              such activities
+            </p>
+          </div>
+        </div>
+        <div class="image-gallery" style="margin: 15rem 0 10rem 0">
+          <h1 class="lg-text text-center text-light">GALLERY</h1>
+          <div class="row mt-4" id="portfolio">
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image1.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image1.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image2.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image2.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image3.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image3.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image4.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image4.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image5.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image5.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image6.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image6.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image7.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image7.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image9.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image9.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image10.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image10.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image11.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image11.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image12.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image12.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image13.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image13.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image14.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image14.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image15.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image15.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a
+                href="./img/image16.png"
+                class="fancybox"
+                data-fancybox="gallery1">
+                <img
+                  src="./img/image16.png"
+                  width="100%"
+                  height="100%"
+                  alt="Portfolio Image gallery" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="review">
+      <h1
+        class="display-3 font-weight-bold text-light text-center pb-3"
+        style="font-weight: 500">
+        Clients Review
+      </h1>
+      <div
+        id="review-bg"
+        class="bg-image text-center d-flex align-items-center justify-content-center">
+        <div class="container">
+          <h2 class="h3 text-light text-center pb-4">
+            "Sound knowledge of the job and readily available with good customer
+            relationship, skillful and experience vendor. Their job quality is
+            excellent..."
+          </h2>
+          <h1 class="display-6 text-center text-light mt-4">
+            ...Nigerian Breweries PLC Kaduna Plants
+          </h1>
+        </div>
+      </div>
+    </div>
+    <footer id="contact" class="container text-light">
+      <div class="info">
+        <div class="pb-1">
+          <h2 class="display-6 text-light">C.S.O Technical Company</h2>
+        </div>
+        <div class="socials pb-1">
+          <a href="https://twitter.com" target="_blank">
+            <img style="width: 3rem" src="./img/twitter.png" alt="Twitter Link"
+          /></a>
+          <a href="https://facebook.com" target="_blank">
+            <img
+              style="width: 3rem"
+              src="./img/facebook.png"
+              alt="Facebook Link"
+          /></a>
+          <a href="https://instagram.com" target="_blank">
+            <img
+              style="width: 3rem"
+              src="./img/insta.png"
+              alt="Instagram Link" />
+          </a>
+        </div>
+      </div>
+      <div class="text-center text-light">
+        <p class="h5 pb-5" style="font-weight: 400">
+          PLEASE CONTACT US AT ANY TIME TO DISCUSS YOUR STEEL FABRICATION NEEDS
+          and get a quote from us. We have handled all manner of projects, big
+          and small, and we'd be happy to discuss what quality product we can
+          fabricate for you or your organization.
+        </p>
+      </div>
+      <div class="info-details row">
+        <div class="col cont text-light">
+          <h3 class="h2 font-weight-bold text-left">Contact</h3>
+          <p class="h5 text-light" style="font-weight: 200">
+            <span style="font-weight: 500"> Email: </span>
+            sundayomouducso@gmail.com
+          </p>
+          <p class="h5 text-light" style="font-weight: 200">
+            <span style="font-weight: 500"> Phone: </span> +2348029001573
+          </p>
+          <p class="h5 text-light" style="font-weight: 200">Nigeria</p>
+        </div>
+        <div class="col address">
+          <h3 class="h2 font-weight-bold text-left">Address</h3>
+          <p class="h5 text-light" style="font-weight: 200">
+            <span style="font-weight: 500">Head Office: </span>15 Buruku Street
+            Trikania, Kaduna, Nigeria
+          </p>
+          <p class="h5 text-light" style="font-weight: 200">
+            <span style="font-weight: 500">Branch: </span> NO 44, KTL road,
+            kakuri kaduna south, Kaduna, Nigeria
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div style="height: 30px"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"></script>
+    <script>
+      let nav = document.querySelector("nav");
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 70) {
+          nav.classList.add("backg-dark", "shadow");
+        } else {
+          nav.classList.remove("backg-dark", "shadow");
+        }
+      });
+    </script>
+  </body>
+</html>
